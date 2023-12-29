@@ -135,3 +135,12 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+.checkbox-settings{
+  padding: 5px;
+  margin: 10px 0px;
+}
+.setting {
+  padding: 5px;
+  margin-bottom: 5px;
+}
