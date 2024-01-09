@@ -144,7 +144,7 @@ function generatePassword(upper, lower, numeric, symbol, length) {
   const typesArr = [{upper}, {lower}, {numeric}, {symbol}].filter(item => Object.values(item)[0])
 
   if(typesCount === 0) {
-      return 'At least one character type should be selected'
+      alert ('At least one character type should be selected')
   }
 
   for(let i=0; i < length; i += typesCount) {
